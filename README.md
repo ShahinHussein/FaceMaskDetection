@@ -6,12 +6,12 @@ This repository contains the code and resources for a real-time face mask detect
 
 ## Features
 
-- Face Detection: It employs a pre-trained deep learning model for detecting faces in images. The face detection model used in this code is based on the Single Shot MultiBox Detector (SSD) framework with a MobileNetV2 architecture.
-- Mask Detection: After detecting faces, the code uses another pre-trained deep learning model to classify whether each detected face is wearing a mask or not. This mask detection model is loaded using Keras and has been previously trained on a dataset containing images of people with and without masks.
-- Deep Neural Networks (DNN): Both the face detection and mask detection models are deep neural networks (DNNs) trained on large datasets to perform their respective tasks.
-- Image Preprocessing: Before passing images to the mask detection model, the code preprocesses them by resizing and applying other transformations to ensure compatibility with the model's input requirements.
-- Real-time Video Processing: The code continuously captures frames from a video stream, processes them using the face and mask detection models, and displays the results in real-time.
-- Feedback via Hardware Interaction: The code integrates with the BrainPad hardware controller to provide feedback when a person is detected without wearing a mask. It toggles the LED and displays a message on the BrainPad's display to prompt the person to wear a mask.
+- **Face Detection:** It employs a pre-trained deep learning model for detecting faces in images. The face detection model used in this code is based on the Single Shot MultiBox Detector (SSD) framework with a MobileNetV2 architecture.
+- **Mask Detection:** After detecting faces, the code uses another pre-trained deep learning model to classify whether each detected face is wearing a mask or not. This mask detection model is loaded using Keras and has been previously trained on a dataset containing images of people with and without masks.
+- **Deep Neural Networks (DNN):** Both the face detection and mask detection models are deep neural networks (DNNs) trained on large datasets to perform their respective tasks.
+- **Image Preprocessing:** Before passing images to the mask detection model, the code preprocesses them by resizing and applying other transformations to ensure compatibility with the model's input requirements.
+- **Real-time Video Processing:** The code continuously captures frames from a video stream, processes them using the face and mask detection models, and displays the results in real-time.
+- **Feedback via Hardware Interaction:** The code integrates with the BrainPad hardware controller to provide feedback when a person is detected without wearing a mask. It toggles the LED and displays a message on the BrainPad's display to prompt the person to wear a mask.
 
 ![Face Mask Detection](images/2.jpg)
 
