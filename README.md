@@ -2,6 +2,8 @@
 
 This repository contains the code and resources for a real-time face mask detection and warning system. The project utilizes computer vision techniques and deep learning models to detect whether a person is wearing a face mask or not. Additionally, it includes an alert system by BrainPad Pulse microcomputer to notify individuals not wearing masks, promoting safety measures in public spaces.
 
+![Face Mask Detection](images/1.png)
+
 ## Features
 
 - Face Detection: It employs a pre-trained deep learning model for detecting faces in images. The face detection model used in this code is based on the Single Shot MultiBox Detector (SSD) framework with a MobileNetV2 architecture.
@@ -11,7 +13,8 @@ This repository contains the code and resources for a real-time face mask detect
 - Real-time Video Processing: The code continuously captures frames from a video stream, processes them using the face and mask detection models, and displays the results in real-time.
 - Feedback via Hardware Interaction: The code integrates with the BrainPad hardware controller to provide feedback when a person is detected without wearing a mask. It toggles the LED and displays a message on the BrainPad's display to prompt the person to wear a mask.
 
-![Face Mask Detection](images/1.png)
+![Face Mask Detection](images/2.jpg)
+
 
 ## Instructions
 
